@@ -3,6 +3,11 @@
   src: url('/fonts/PoiretOne-Regular.ttf');
 }
 
+@font-face {
+  font-family: 'Droid Sans';
+  src: url('/fonts/DroidSans.ttf');
+}
+
 html,body {
   font-size: 100%;
 }
@@ -10,6 +15,7 @@ html,body {
 body {
   margin: 0;
   background-color: #FFF5F5;
+  color: #999;
 }
 
 .header {
@@ -28,6 +34,24 @@ body {
   background-color: #FFF0F0;
   background: url('/img/hero00.png');
   background-position: center 0px;
+
+  .banner-text {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 250px;
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 5em;
+    color: #FFF;
+    text-align: center;
+    width: 100%;
+    text-shadow: 2px 2px 5px #999;
+    padding-bottom: 0.2em;
+  }
+
+  .banner-subtitle {
+    font-size: .5em;
+    text-shadow: 1px 1px 2px #888;
+  }
 }
 
 .content {
