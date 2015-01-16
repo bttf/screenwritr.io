@@ -15,7 +15,7 @@ html,body {
 body {
   margin: 0;
   background-color: #FFF5F5;
-  color: #999;
+  color: #606060;
 }
 
 .header {
@@ -37,7 +37,7 @@ body {
   background-size: cover;
 
   .banner-text {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
     position: fixed;
     top: 225px;
     font-family: 'Droid Sans', sans-serif;
@@ -45,16 +45,21 @@ body {
     color: #FFF;
     text-align: center;
     width: 100%;
-    text-shadow: 2px 2px 5px #999;
+    /*text-shadow: 2px 2px 5px #999;*/
     padding-bottom: 0.2em;
   }
 
   .banner-subtitle {
     font-size: .5em;
-    text-shadow: 1px 1px 2px #888;
+    /*text-shadow: 1px 1px 2px #888;*/
   }
 }
 
 .content {
-  height: 1200px;
+  margin-top: 3em;
+
+  .list-title {
+    font-family: 'Poiret One', sans-serif;
+    font-size: 2em;
+  }
 }
