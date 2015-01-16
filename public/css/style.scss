@@ -8,6 +8,11 @@
   src: url('/fonts/DroidSans.ttf');
 }
 
+@font-face {
+  font-family: 'Raleway';
+  src: url('/fonts/Raleway-Regular.ttf');
+}
+
 html,body {
   font-size: 100%;
 }
@@ -16,6 +21,7 @@ body {
   margin: 0;
   background-color: #FFF5F5;
   color: #606060;
+  font-family: 'Raleway', sans-serif;
 }
 
 .header {
@@ -58,8 +64,17 @@ body {
 .content {
   margin-top: 3em;
 
+  .list {
+    margin-top: 1em;
+    font-size: 1em;
+  }
+
   .list-title {
     font-family: 'Poiret One', sans-serif;
     font-size: 2em;
   }
+}
+
+.app-preview {
+  height: 600px;
 }
