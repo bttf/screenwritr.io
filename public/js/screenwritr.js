@@ -7,7 +7,7 @@
       $('.hero').css('height', (width * 400) / 800 + 'px');
       $('.banner-text').css({
         'font-size': (width / (800 / 5)) + 'em',
-        'top': ($('.hero').height() * 250) / 400 + 'px'
+        'top': ($('.hero').height() / 4) + 'px'
       });
     }
   }
@@ -16,9 +16,7 @@
     var scrollPos = $(this).scrollTop();
     
     // hero banner parallax
-    $('.hero').css('background-position', 'center ' + (scrollPos / 1) + 'px');
-    // hero banner text parallax
-    $('.banner-text').css('margin-top', (-scrollPos * 1) + 'px');
+    $('.hero').css('background-position', 'center ' + (scrollPos / 2) + 'px');
   }
 
   function makeMobileFriendly() {

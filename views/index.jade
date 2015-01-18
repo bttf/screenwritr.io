@@ -2,10 +2,25 @@ extends layout
 
 block content
   .header
-    .headline
-      |screenwritr
-    .subtitle
-      |  A Screenwriting Application in the Browser
+    .row
+      .col-xs-12.col-sm-8
+        .headline
+          |screenwritr
+        .subtitle
+          |  A Screenwriting Application in the Browser
+      .col-xs-12.col-sm-4
+        .menu.pull-right
+          ul.nav.nav-pills
+            li
+              a(href='#')
+                i.fa.fa-home
+            li
+              a(href='#')
+                i.fa.fa-question-circle
+            li
+              a(href='#')
+                i.fa.fa-github
+
   .hero
     .overlay
     .banner-text
