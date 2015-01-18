@@ -45,6 +45,9 @@ body {
     a {
       color: #606060;
     }
+    .nav-pills > li > a:hover {
+      background-color: rgba(255, 221, 221, 0.5);
+    }
   }
 }
 
