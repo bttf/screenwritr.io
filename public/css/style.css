@@ -21,7 +21,12 @@ body {
   border-bottom: 1px solid #FFDDDD; }
   .header .headline {
     font-family: 'Poiret One', sans-serif;
-    font-size: 4em; }
+    font-size: 4em;
+    display: inline; }
+  .header .subtitle {
+    display: inline; }
+  .header .menu {
+    display: inline-block; }
 
 .hero {
   height: 400px;
@@ -30,8 +35,11 @@ body {
   background: url("/img/hero00.png");
   background-position: center 0px;
   background-size: cover; }
+  .hero .overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); }
   .hero .banner-text {
-    background-color: rgba(0, 0, 0, 0.7);
     position: fixed;
     top: 225px;
     font-family: 'Droid Sans', sans-serif;

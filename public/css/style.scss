@@ -31,7 +31,17 @@ body {
  .headline {
    font-family: 'Poiret One', sans-serif;
    font-size: 4em;
+   display:inline;
  }
+
+ .subtitle {
+   display: inline;
+ }
+
+ .menu {
+   display: inline-block;
+ }
+
 }
 
 .hero {
@@ -42,8 +52,13 @@ body {
   background-position: center 0px;
   background-size: cover;
 
+  .overlay {
+    width: 100%;
+    height:100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
   .banner-text {
-    background-color: rgba(0, 0, 0, 0.7);
     position: fixed;
     top: 225px;
     font-family: 'Droid Sans', sans-serif;

@@ -28,7 +28,7 @@
     // hero banner parallax
     $('.hero').css('background-position', 'center ' + (scrollPos / 2) + 'px');
     // hero banner text parallax
-    $('.banner-text').css('margin-top', (-scrollPos * 1.25) + 'px');
+    $('.banner-text').css('margin-top', (-scrollPos * 1) + 'px');
   }
 
   function makeMobileFriendly() {
